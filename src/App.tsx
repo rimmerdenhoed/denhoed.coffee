@@ -4,7 +4,7 @@
  */
 
 import { motion, AnimatePresence } from "motion/react";
-import { ChevronDown, Mail, MapPin, Calendar, ArrowRight } from "lucide-react";
+import { ChevronDown, Mail, Instagram, MapPin, Calendar, ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const faqData = [
@@ -455,12 +455,15 @@ export default function App() {
                   >
                     <Mail className="w-5 h-5 text-accent group-hover:scale-125 transition-transform" /> rimmer@denhoed.coffee
                   </motion.a>
-                  <motion.div 
+                  <motion.a 
                     whileHover={{ x: 10 }}
-                    className="flex items-center gap-4 text-xl md:text-2xl font-bold"
+                    href="https://www.instagram.com/denhoed.coffee/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center gap-4 text-xl md:text-2xl font-bold hover:text-accent transition-all"
                   >
-                    <MapPin className="w-5 h-5 text-accent" /> Nijmegen, NL
-                  </motion.div>
+                    <Instagram className="w-5 h-5 text-accent group-hover:scale-125 transition-transform" /> @denhoed.coffee
+                  </motion.a>
                 </div>
               </div>
             </motion.div>
@@ -547,29 +550,10 @@ export default function App() {
             <p className="text-lg font-medium tracking-tight text-main-text/40 leading-snug">Zakelijke baristatrainingen voor een betere eerste indruk en een blij team.</p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-16 text-[10px] font-bold uppercase tracking-widest text-main-text/60">
-            <div className="space-y-6">
-              <p className="text-accent underline underline-offset-4">Menu</p>
-              <div className="flex flex-col gap-4">
-                <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="text-left hover:text-accent transition-colors">Home</button>
-                <button onClick={() => document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})} className="text-left hover:text-accent transition-colors">Contact</button>
-                <button onClick={() => document.getElementById('faq')?.scrollIntoView({behavior: 'smooth'})} className="text-left hover:text-accent transition-colors">FAQ</button>
-              </div>
-            </div>
-            <div className="space-y-6">
-              <p className="text-accent underline underline-offset-4">Social</p>
-              <div className="flex flex-col gap-4">
-                <a href="https://www.instagram.com/denhoed.coffee/" className="flex items-center gap-2 hover:text-accent transition-colors">
-                   Instagram
-                </a>
-              </div>
-            </div>
-            <div className="space-y-6">
-              <p className="text-accent underline underline-offset-4">Details</p>
-              <div className="flex flex-col gap-4 text-main-text/30">
-                <p>KVK: 5954958</p>
-                <p>Nijmegen, NL</p>
-              </div>
+          <div className="text-[10px] font-bold uppercase tracking-widest text-main-text/60">
+            <div className="space-y-4 text-main-text/30">
+              <p>KVK: 5954958</p>
+              <p>Groenestraat 331<br/>6531 HN Nijmegen</p>
             </div>
           </div>
         </div>
