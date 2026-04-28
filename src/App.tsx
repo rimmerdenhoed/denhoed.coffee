@@ -248,24 +248,30 @@ export default function App() {
             className="space-y-12"
           >
             <motion.h2 variants={fadeIn} className="text-3xl md:text-5xl leading-tight font-serif font-bold tracking-tight">
-              Er staat een dure espressomachine op kantoor — maar het resultaat valt tegen.
+              Van te dure machine naar de perfecte cappuccino
             </motion.h2>
             
-            <motion.div variants={fadeIn} className="grid md:grid-cols-2 gap-12 text-lg text-main-text/70 leading-relaxed font-medium">
-              <div className="space-y-6">
-                <p>
-                  De koffie smaakt wisselvallig, klanten laten hun kopje halfvol staan en medewerkers drinken het met tegenzin. Wat een bedoeld was als warm welkom, laat een bittere nasmaak achter.
-                </p>
-                <p className="text-accent font-bold">
-                  Het goede nieuws: de machine is niet het probleem.
-                </p>
+            <motion.div variants={fadeIn} className="space-y-12 text-lg text-main-text/70 leading-relaxed font-medium">
+              <div className="grid md:grid-cols-2 gap-12">
+                <div className="space-y-6">
+                  <p>
+                    Het is een herkenbaar beeld: er staat een indrukwekkende espressomachine op kantoor, maar het resultaat is wisselvallig. De koffie is te bitter, de melk te heet en klanten laten hun kopje ongemerkt halfvol staan. Dat is zonde van de investering en een gemiste kans voor de uitstraling van uw kantoor.
+                  </p>
+                </div>
+                <div className="space-y-6">
+                  <p>
+                    In slechts 90 minuten draaien we dit om. We duiken niet in dikke handleidingen, maar gaan direct samen aan de slag. Uw team leert alles over de basis van een goede extractie tot aan de techniek achter zijdezacht melkschuim en latte art.
+                  </p>
+                </div>
               </div>
-              <div className="space-y-6">
-                <p>
-                  De manier van zetten wel — en dat is zo opgelost.
+
+              <div className="pt-8 border-t border-main-text/5 space-y-8">
+                <h3 className="text-2xl md:text-3xl font-serif font-bold text-main-text">Meer dan een workshop</h3>
+                <p className="max-w-3xl">
+                  Deze training is een interactieve ervaring voor het hele team. Samen proeven, experimenteren en die eerste perfecte espresso serveren schept een band en zorgt voor een nieuwe standaard op de werkvloer.
                 </p>
-                <p className="text-main-text border-l-2 border-accent pl-6 py-2 italic font-serif bg-accent/5 rounded-r-2xl">
-                  In anderhalf uur leert uw team koffie zetten die wél klopt — met kennis, aandacht en plezier. Koffie waar mensen van opkijken, en graag voor terugkomen.
+                <p className="text-main-text text-xl md:text-2xl font-serif font-bold bg-accent/5 p-8 rounded-3xl border-l-4 border-accent">
+                  Maak van uw koffiecorner weer de favoriete plek op kantoor. Met kennis, aandacht en plezier.
                 </p>
               </div>
             </motion.div>
