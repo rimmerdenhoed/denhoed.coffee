@@ -351,8 +351,8 @@ export default function App() {
                   variants={fadeIn}
                   className="space-y-3"
                 >
-                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent">over mij</p>
-                  <p className="text-sm text-main-text/60 leading-relaxed">
+                  <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent">over mij</p>
+                  <p className="text-lg text-main-text/70 leading-relaxed font-medium">
                     Na jaren achter de bar en een finaleplaats bij het Dutch Barista Championship, weet ik inmiddels precies wat een koffie echt goed maakt. Die kennis deel ik nu op kantoor. Ik krijg er simpelweg veel energie van om mensen te enthousiasmeren voor koffie — van de techniek achter een goede espresso tot het schenken van de perfecte latte art.
                   </p>
                 </motion.div>
@@ -369,7 +369,7 @@ export default function App() {
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center text-[10px] font-bold tracking-widest text-main-text/30 mb-20 uppercase"
+            className="text-center text-xs font-bold tracking-widest text-main-text/30 mb-20 uppercase"
           >
             ik heb al samengewerkt met
           </motion.p>
