@@ -163,7 +163,7 @@ export default function App() {
               <div className="relative w-full aspect-square overflow-hidden rounded-3xl shadow-2xl shadow-black/5 bg-main-bg">
                 <img 
                    src="/hero.jpeg" 
-                   alt="Barista training" 
+                   alt="Baristatraining" 
                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-[2s]"
                 />
               </div>
@@ -199,7 +199,7 @@ export default function App() {
               
               <motion.div variants={fadeIn} className="space-y-10 max-w-2xl">
                 <p className="text-xl md:text-3xl font-medium leading-tight tracking-tight text-main-text/90">
-                  Maak direct een goede indruk. Een barista workshop voor bedrijven waarin teambuilding en gastvrijheid samenkomen.
+                  Maak direct een goede indruk. Een baristaworkshop voor bedrijven waarin teambuilding en gastvrijheid samenkomen.
                 </p>
 
                 {/* Button - Mobile only, under headline */}
@@ -335,7 +335,7 @@ export default function App() {
                 >
                   <img 
                     src="/training.jpg" 
-                    alt="Barista training sessie" 
+                    alt="Baristatraining" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </motion.div>
