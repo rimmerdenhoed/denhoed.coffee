@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 const faqData = [
   {
     question: "Voor wie is de training bedoeld?",
-    answer: "Voor teams die koffie op kantoor belangrijk vinden — en willen dat het ook echt goed smaakt.\n\nVan creatieve bureaus tot advocatenkantoren: iedereen die met trots koffie wil serveren, kan meedoen.\n\nHet is geen officiële baristaopleiding, maar een leuke, toegankelijke sessie waarin je leert hoe je met vertrouwen koffie zet die goed smaakt en er verzorgd uitziet — voor collega’s, klanten en bezoekers.\n\nParticulier of horeca? Hier ligt mijn focus, maar neem contact op voor mogelijkheden."
+    answer: "Voor teams die koffie op kantoor belangrijk vinden — en willen dat het ook echt goed smaakt.\n\nVan creatieve bureaus tot advocatenkantoren: iedereen die met trots koffie wil serveren, kan meedoen.\n\nHet is geen officiële baristaopleiding, maar een leuke, toegankelijke sessie waarin je leert hoe je met vertrouwen koffie zet die goed smaakt en er verzorgd uitziet — voor collega’s, klanten en bezoekers.\n\nBen je particulier of kom je uit de horeca? Hoewel mijn focus op kantoren ligt, kun je altijd contact opnemen voor de mogelijkheden."
   },
   {
     question: "Hoeveel mensen kunnen er meedoen?",
@@ -18,7 +18,7 @@ const faqData = [
   },
   {
     question: "Hoe lang duurt de training en wat kost het?",
-    answer: "De standaardtraining duurt 1,5 uur en kost €190 voor groepen tot 10 personen.\n\nIn overleg is er veel mogelijk, zoals een langere sessie, extra verdieping of meerdere groepen op één dag."
+    answer: "De standaardtraining duurt 1,5 uur en kost €190 (exclusief btw) voor groepen tot 10 personen.\n\nIn overleg is er veel mogelijk, zoals een langere sessie, extra verdieping of meerdere groepen op één dag."
   },
   {
     question: "In welke taal wordt de training gegeven?",
@@ -33,8 +33,8 @@ const faqData = [
     answer: "Een espressomachine, koffiemolen, koffie, volle melk en melkkannetjes.\n\nEventueel ook havermelk, kokosmelk of matcha als jullie dat gebruiken.\n\nTwijfel je over je koffiebonen of welk materiaal je het beste kunt aanschaffen? Neem gerust contact op — in overleg is veel mogelijk."
   },
   {
-    question: "Hoe boeken we een training?",
-    answer: "Vul dit formulier in of stuur een mail naar rimmer@denhoed.coffee.\n\nJe krijgt snel een reactie met beschikbare data en praktische info."
+    question: "Hoe boek je een training?",
+    answer: "Vul het contactformulier onderaan deze pagina in of stuur een mail naar rimmer@denhoed.coffee.\n\nJe krijgt snel een reactie met beschikbare data en praktische info."
   }
 ];
 
@@ -388,7 +388,7 @@ export default function App() {
           >
             {[
               { name: "SCA", src: "/logo-sca.png", height: "h-14" },
-              { name: "Oatly", src: "/logo-oatly.png", height: "h-7" },
+              { name: "Oatly", src: "/logo-oatly.png", height: "h-11" },
               { name: "Blommers", src: "/logo-blommers.webp", height: "h-9" },
               { name: "Poelman van den Broek", src: "/logo-poelman.png", height: "h-12" },
               { name: "Tuka", src: "/logo-tuka.webp", height: "h-14" }
