@@ -540,6 +540,35 @@ export default function App() {
             </form>
           </motion.div>
         </div>
+
+        {/* Instagram Feed */}
+        <div className="max-w-7xl mx-auto mt-32 relative z-10">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          >
+            <a href="https://www.instagram.com/denhoed.coffee/p/C4tncREts0T/" target="_blank" rel="noopener noreferrer" className="group overflow-hidden rounded-3xl aspect-square shadow-2xl shadow-black/5 bg-main-bg relative">
+              <img src="/ig-1.jpg" alt="Instagram post" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <div className="absolute inset-0 bg-accent/0 group-hover:bg-accent/20 transition-colors duration-500 flex items-center justify-center">
+                <Instagram className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-all duration-500 scale-50 group-hover:scale-100 drop-shadow-lg" />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/denhoed.coffee/p/DM2S1Z7NZa1/" target="_blank" rel="noopener noreferrer" className="group overflow-hidden rounded-3xl aspect-square shadow-2xl shadow-black/5 bg-main-bg relative">
+              <img src="/ig-2.jpg" alt="Instagram post" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <div className="absolute inset-0 bg-accent/0 group-hover:bg-accent/20 transition-colors duration-500 flex items-center justify-center">
+                <Instagram className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-all duration-500 scale-50 group-hover:scale-100 drop-shadow-lg" />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/denhoed.coffee/p/C4tmncMNB3r/" target="_blank" rel="noopener noreferrer" className="group overflow-hidden rounded-3xl aspect-square shadow-2xl shadow-black/5 bg-main-bg relative">
+              <img src="/ig-3.jpg" alt="Instagram post" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <div className="absolute inset-0 bg-accent/0 group-hover:bg-accent/20 transition-colors duration-500 flex items-center justify-center">
+                <Instagram className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-all duration-500 scale-50 group-hover:scale-100 drop-shadow-lg" />
+              </div>
+            </a>
+          </motion.div>
+        </div>
       </section>
 
       {/* Footer */}
